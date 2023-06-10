@@ -385,6 +385,10 @@ body {
   color: #6246E5;
 }
 
+.destinations {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .destinations-subtitle {
   font-weight: 600;
   font-size: 1.2vw;
@@ -410,4 +414,76 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.destinations__item {
+  height: 30vw;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+          filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+.destinations__item:last-child {
+  position: relative;
+}
+.destinations__item:last-child::before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background-image: url(../img/decore2.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  top: 36%;
+  left: 90%;
+  width: 30%;
+  height: 60%;
+}
+.destinations__item-image {
+  height: 75%;
+  overflow: hidden;
+}
+.destinations__item-image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.destinations__item-inner {
+  background: #FFFFFF;
+  border-radius: 0 0 24px 24px;
+  padding: 10% 10% 8% 6%;
+  color: #5E6282;
+  font-size: 1.1vw;
+}
+.destinations__item-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.destinations__item-duration {
+  position: relative;
+  margin-top: 5%;
+  padding-left: 10%;
+}
+.destinations__item-duration::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/navigationArrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 10%;
+  left: 0;
+  width: 8%;
+  height: 70%;
 }/*# sourceMappingURL=style.css.map */
