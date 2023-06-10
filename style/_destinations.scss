@@ -1,0 +1,22 @@
+.destinations {
+    &-subtitle {
+        font-weight: 600;
+        font-size: 1.2vw;
+        text-align: center;
+        color: #5E6282;
+    }
+    &-title {
+        margin: 1% 0 5%;
+        font-family: 'Volkhov';
+        font-weight: 700;
+        font-size: 3.5vw;
+        text-align: center;
+        text-transform: capitalize;
+        color: #14183E;
+    }
+    &-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

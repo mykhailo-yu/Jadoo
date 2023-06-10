@@ -1,0 +1,95 @@
+.header {
+    position: relative;
+    padding-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-navLinks {
+        display: flex;
+        gap: 4vw;
+        li {
+            transition: scale ease-in-out 0.2s;
+            &:hover {
+                scale: 1.1;
+            }
+        }
+        a {
+            
+            transition: color ease-in-out 0.2s;
+            &:hover {
+                color: #888888;
+            }
+        }
+    }
+    &-buttons {
+        display: flex;
+        align-items: center;
+        gap: 3vw;
+    }
+    .btn {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 500;
+        &-signUp {
+            border: 1px solid #212832;
+            border-radius: 5px;
+            padding: 9px 20px;
+        }
+        transition: scale ease-in-out 0.2s, color ease-in-out 0.2s;
+        &:hover {
+            color: #888888;
+            scale: 1.08;
+        }
+    }
+    &::before {
+        content: url(../img/decore1.svg);
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+    &::after {
+        content: url(../img/decore.svg);
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        height: 50vh;
+    }
+}
+.dropdown {
+    position: relative;
+    font-weight: 500;
+    z-index: 2;
+    &-toggle {
+        display: flex;
+        gap: 5px;
+    }
+    &-menu {
+        position: absolute; 
+        top: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.1s, opacity 0.3s ease-in-out;
+    }
+    &-divider {
+        border: 1px solid #000;
+    }
+    &:hover > &-menu {
+        visibility: visible;
+        opacity: 1;
+    }
+    &-item {
+        padding: 2px 5px;
+        border-radius: 3px;
+        transition: background-color 0.2s ease-in-out;
+        &:hover {
+            background-color: rgba(#000, 0.1);
+        }
+    }
+}
