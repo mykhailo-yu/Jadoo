@@ -129,10 +129,15 @@
         }
         .likeButton {
             position: absolute;
-            bottom: 7%;
+            bottom: 4%;
             right: 10%;
-            width: 1vw;
-            height: 1vw;
+            width: 2vw;
+            height: 2vw;
+            svg {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
             &:hover {
                 path {
                     fill: #8A79DF;

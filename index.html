@@ -18,7 +18,7 @@
                     <a href="#" class="header-logo">
                         <img src="img/logo.svg" alt="Jadoo">
                     </a>
-                    <nav>
+                    <nav class="header-navLinks__wrapper">
                         <ul class="header-navLinks">
                             <li><a href="#destinations">Destinations</a></li>
                             <li><a href="#">Hotels</a></li>
@@ -41,8 +41,17 @@
                                 </li>
                             </ul>
                         </div>
+                        <a class="burger-menu" href="#menu"><img src="img/burgerMenu.svg" alt="Menu"></a>
                     </div>
                 </div>
+                <nav id="menu" class="header-navLinks__mobile-wrapper">
+                    <ul class="header-navLinks__mobile">
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Bookings</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <section class="banner">
@@ -70,12 +79,12 @@
                         <div class="banner-photo">
                             <img src="img/traveler.png" alt="Traveler">
                         </div>
-                        <div id="plane1" class="banner-plane">
-                            <img src="img/plane.svg" alt="plane">
-                        </div>
-                        <div id="plane2" class="banner-plane">
-                            <img src="img/plane.svg" alt="plane">
-                        </div>
+                    </div>
+                    <div id="plane1" class="banner-plane">
+                        <img src="img/plane.svg" alt="plane">
+                    </div>
+                    <div id="plane2" class="banner-plane">
+                        <img src="img/plane.svg" alt="plane">
                     </div>
                 </div>
             </div>
@@ -133,6 +142,13 @@
         </section>
         <section id="destinations" class="destinations">
             <div class="container">
+                <div class="destinations__decorPluses destinations__decorPluses1">
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
+                </div>
                 <div class="destinations-subtitle">Top Selling</div>
                 <div class="destinations-title">Top Destinations</div>
                 <div class="destinations-items">
@@ -178,6 +194,13 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="destinations__decorPluses destinations__decorPluses2">
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
+                    <span>+</span><span>+</span><span>+</span>
                 </div>
             </div>
         </section>
@@ -252,6 +275,13 @@
                                 <div class="steps__card-popup-progressBar"></div>
                             </div>
                         </div>
+                        <div class="steps__card-decorPluses">
+                            <span></span><span></span><span>+</span><span>+</span><span>+</span>
+                            <span></span><span></span><span>+</span><span>+</span><span>+</span>
+                            <span></span><span></span><span>+</span><span>+</span><span>+</span>
+                            <span></span><span>+</span><span>+</span><span>+</span><span>+</span>
+                            <span>+</span><span></span><span>+</span><span>+</span><span>+</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -274,6 +304,7 @@
                         <div class="testimonials__quote-place">Lahore, Pakistan</div>
                     </div>
                 </div>
+                <div class="testimonials__brands-title-mobile">Top Selling</div>
                 <div class="testimonials__brands">
                     <div class="testimonials__brands-item">
                         <img src="img/brand1.png" alt="Axon airlines">
@@ -311,6 +342,19 @@
                         <span></span><span>+</span><span>+</span><span>+</span><span>+</span>
                         <span>+</span><span></span><span>+</span><span>+</span><span>+</span>
                     </div>
+                </div>
+                <div id="subscribe" class="subscribe-mobile">
+                    <a href="#popup1" class="subscribe-mobile-button">Subscribe</a>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <a class="close" href="#subscribe">&times;</a>
+                            <form class="subscribe-form" action="" >
+                                <input type="email" name="email" required id="mail" placeholder="Your email">
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="subscribe-decor"><img src="img/subscribe1.svg" alt=""></div>
                 </div>
             </div>
         </section>

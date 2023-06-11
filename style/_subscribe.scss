@@ -87,10 +87,10 @@
             width: 50%;
             height: 50%;
             object-fit: contain;
-            object-position: 0 0;
         }
     }
     &__decorPluses {
+        pointer-events: none;
         position: absolute;
         top: 70%;
         right: -8%;
