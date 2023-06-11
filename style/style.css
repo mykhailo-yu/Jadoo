@@ -48,6 +48,17 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.header-logo {
+  display: block;
+  width: 8vw;
+  height: 2.5vw;
+}
+.header-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .header-navLinks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,8 +97,8 @@ body {
 }
 .header .btn-signUp {
   border: 1px solid #212832;
-  border-radius: 5px;
-  padding: 9px 20px;
+  border-radius: 0.5vw;
+  padding: 0.3vw 0.5vw;
 }
 .header .btn:hover {
   color: #3d4899;
@@ -193,7 +204,7 @@ body {
   background: #F1A501;
   -webkit-box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
           box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
-  border-radius: 10px;
+  border-radius: 0.8vw;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.1vw;
@@ -680,29 +691,39 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-.steps__card-popup-Subtitle {
+.steps__card-popup-image {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+.steps__card-popup-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.steps__card-popup-subtitle {
   font-weight: 500;
   color: #84829A;
   font-size: 1vw;
 }
-.steps__card-popup-Text {
+.steps__card-popup-text {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.steps__card-popup-Title {
+.steps__card-popup-title {
   font-size: 1.3vw;
   color: #080809;
 }
-.steps__card-popup-Progress {
+.steps__card-popup-progress {
   margin-top: 5%;
   font-size: 1vw;
   color: #080809;
 }
-.steps__card-popup-Progress span {
+.steps__card-popup-progress span {
   color: #8A79DF;
 }
-.steps__card-popup-ProgressBar {
+.steps__card-popup-progressBar {
   position: relative;
   margin-top: 6%;
   width: 100%;
@@ -710,7 +731,7 @@ body {
   background-color: #F5F5F5;
   border-radius: 4vw;
 }
-.steps__card-popup-ProgressBar::before {
+.steps__card-popup-progressBar::before {
   position: absolute;
   content: "";
   top: 0;
@@ -821,7 +842,7 @@ body {
 }
 
 .subscribe {
-  margin: 100px 0;
+  margin: 10vw 0;
 }
 .subscribe-inner {
   position: relative;
@@ -1007,6 +1028,20 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-socialLinks a {
+  width: 1.4vw;
+  height: 1.4vw;
+  display: block;
+}
+.footer-socialLinks a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .footer-appTitle {
   font-size: 1.2vw;

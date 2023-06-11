@@ -151,19 +151,28 @@
             display: flex;
             gap: 10%;
             flex-shrink: 0;
-            &-Subtitle {
+            &-image {
+                width: 3.5vw;
+                height: 3.5vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            &-subtitle {
                 font-weight: 500;
                 color: #84829A;
                 font-size: 1vw;
             }
-            &-Text {
+            &-text {
                 flex-grow: 1;
             }
-            &-Title {
+            &-title {
                 font-size: 1.3vw;
                 color: #080809;
             }
-            &-Progress {
+            &-progress {
                 margin-top: 5%;
                 font-size: 1vw;
                 color: #080809;
@@ -171,7 +180,7 @@
                     color: #8A79DF;
                 }
             }
-            &-ProgressBar {
+            &-progressBar {
                 position: relative;
                 margin-top: 6%;
                 width: 100%;
