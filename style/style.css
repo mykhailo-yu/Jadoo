@@ -1130,6 +1130,10 @@ body {
   display: none;
 }
 
+.category-mobile-moreButton {
+  display: none;
+}
+
 .testimonials__brands-title-mobile {
   display: none;
 }
@@ -1265,6 +1269,13 @@ body {
   .category-title {
     font-size: 9vw;
   }
+  .category-mobile-moreButton {
+    display: block;
+    font-weight: 400;
+    font-size: 4vw;
+    text-align: center;
+    color: #737373;
+  }
   .category-items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1279,6 +1290,9 @@ body {
     gap: 5vw;
     padding: 8vw 0;
     width: 55vw;
+  }
+  .category__item:nth-child(3), .category__item:last-child {
+    display: none;
   }
   .category__item::before {
     width: 20vw;
@@ -1303,6 +1317,12 @@ body {
     width: 28vw;
     height: 28vw;
     font-size: 3.7vw;
+  }
+  #category-items:target > #hide1,
+  #category-items:target > #hide2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .destinations {
     position: relative;

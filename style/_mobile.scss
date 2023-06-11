@@ -4,6 +4,9 @@
 .burger-menu {
     display: none;
 }
+.category-mobile-moreButton {
+    display: none;
+}
 .testimonials__brands-title-mobile {
     display: none;
 }
@@ -122,15 +125,26 @@
         &-title {
             font-size: 9vw;
         }
+        &-mobile-moreButton {
+            display: block;
+            font-weight: 400;
+            font-size: 4vw;
+            text-align: center;
+            color: #737373;
+        }
         &-items {
             flex-direction: column;
             gap: 5vw;
         }
+        
         &__item {
             align-items: center;
             gap: 5vw;
             padding: 8vw 0;
             width: 55vw;
+            &:nth-child(3), &:last-child {
+                display: none;
+            }
             &::before {
                 width: 20vw;
                 height: 20vw;
@@ -156,6 +170,11 @@
             height: 28vw;
             font-size: 3.7vw;
         }
+        
+    }
+    #category-items:target > #hide1,
+    #category-items:target > #hide2 {
+        display: flex;
     }
     .destinations {
         position: relative;
