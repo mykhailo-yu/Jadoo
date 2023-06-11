@@ -20,7 +20,7 @@
                     </a>
                     <nav>
                         <ul class="header-navLinks">
-                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#destinations">Destinations</a></li>
                             <li><a href="#">Hotels</a></li>
                             <li><a href="#">Flights</a></li>
                             <li><a href="#">Bookings</a></li>
@@ -70,10 +70,10 @@
                         <div class="banner-photo">
                             <img src="img/traveler.png" alt="Traveler">
                         </div>
-                        <div class="banner-plane1">
+                        <div id="plane1" class="banner-plane">
                             <img src="img/plane.svg" alt="plane">
                         </div>
-                        <div class="banner-plane2">
+                        <div id="plane2" class="banner-plane">
                             <img src="img/plane.svg" alt="plane">
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section class="destinations">
+        <section id="destinations" class="destinations">
             <div class="container">
                 <div class="destinations-subtitle">Top Selling</div>
                 <div class="destinations-title">Top Destinations</div>
@@ -183,22 +183,200 @@
         </section>
         <section class="steps">
             <div class="container">
-
+                <div class="steps-inner">
+                    <div class="steps__description">
+                        <div class="steps__description-subtitle">
+                            Easy and Fast
+                        </div>
+                        <div class="steps__description-title">
+                            Book Your Next Trip In 3 Easy Steps
+                        </div>
+                        <div class="steps__description-items">
+                            <div class="steps__description-item">
+                                <div class="steps__description-itemTitle">
+                                    Choose Destination
+                                </div>
+                                <div class="steps__description-itemText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+                                </div>
+                            </div>
+                            <div class="steps__description-item">
+                                <div class="steps__description-itemTitle">
+                                    Make Payment
+                                </div>
+                                <div class="steps__description-itemText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+                                </div>
+                            </div>
+                            <div class="steps__description-item">
+                                <div class="steps__description-itemTitle">
+                                    Reach Airport on Selected Date
+                                </div>
+                                <div class="steps__description-itemText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps__card">
+                        <div class="steps__card-image">
+                            <img src="img/stepsCard.png" alt="Greece">
+                        </div>
+                        <div class="steps__card-title">
+                            Trip to Greece
+                        </div>
+                        <div class="steps__card-info">
+                            <span>14-29 June</span><span> | </span><span>by Robbin Joseph</span>
+                        </div>
+                        <ul class="steps__card-links">
+                            <li><a href="#" class="steps__card-link"><img src="img/stepsCardLink1.svg" alt=""></a></li>
+                            <li><a href="#" class="steps__card-link"><img src="img/stepsCardLink2.svg" alt=""></a></li>
+                            <li><a href="#" class="steps__card-link"><img src="img/stepsCardLink3.svg" alt=""></a></li>
+                        </ul>
+                        <div class="steps__card-peopleQuantity">
+                            24 people going
+                        </div>
+                        <button class="likeButton">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.3644 2.45457C17.33 1.34265 15.8804 0.709981 14.3617 0.707636C12.8417 0.709395 11.3906 1.34173 10.3546 2.45386L10.0015 2.82698L9.64836 2.45386C7.59251 0.241198 4.13215 0.114128 1.91953 2.16998C1.82148 2.26112 1.72679 2.35577 1.63565 2.45386C-0.545218 4.80619 -0.545218 8.44162 1.63565 10.794L9.48255 19.069C9.75403 19.3556 10.2064 19.3679 10.493 19.0964C10.5024 19.0875 10.5115 19.0784 10.5204 19.069L18.3645 10.794C20.5452 8.44187 20.5452 4.80665 18.3644 2.45457ZM17.3302 9.80969H17.3294L10.0015 17.5386L2.67282 9.80969C1.00676 8.01229 1.00676 5.23481 2.67282 3.43741C4.1858 1.79757 6.74172 1.69475 8.38156 3.20773C8.46118 3.28119 8.53778 3.35779 8.61124 3.43741L9.48255 4.35663C9.76969 4.64193 10.2333 4.64193 10.5204 4.35663L11.3917 3.43812C12.9047 1.79828 15.4606 1.69546 17.1005 3.20844C17.1801 3.2819 17.2567 3.35851 17.3302 3.43812C19.0107 5.23837 19.023 8.02092 17.3302 9.80969Z" fill="#4152CA"/>
+                            </svg>                                
+                        </button>
+                        <div class="steps__card-popup">
+                            <div class="steps__card-popup-Image">
+                                <img src="img/stepsCardPopup.png" alt="">
+                            </div>
+                            <div class="steps__card-popup-Text">
+                                <div class="steps__card-popup-Subtitle">Ongoing</div>
+                                <div class="steps__card-popup-Title">Trip to Rome</div>
+                                <div class="steps__card-popup-Progress"><span>40%</span> completed</div>
+                                <div class="steps__card-popup-ProgressBar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="testimonials">
             <div class="container">
-
+                <div class="testimonials-inner">
+                    <div class="testimonials-titles">
+                        <div class="testimonials-subtitle">TESTIMONIALS</div>
+                        <div class="testimonials-title">What people say about Us.</div>
+                    </div>
+                    <div class="testimonials__quote">
+                        <div class="testimonials__quote-image">
+                            <img src="img/testimonial.png" alt="Mike Taylor">
+                        </div>
+                        <div class="testimonials__quote-text">
+                            “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+                        </div>
+                        <div class="testimonials__quote-author">Mike Taylor</div>
+                        <div class="testimonials__quote-place">Lahore, Pakistan</div>
+                    </div>
+                </div>
+                <div class="testimonials__brands">
+                    <div class="testimonials__brands-item">
+                        <img src="img/brand1.png" alt="Axon airlines">
+                    </div>
+                    <div class="testimonials__brands-item">
+                        <img src="img/brand2.png" alt="JetStar">
+                    </div>
+                    <div class="testimonials__brands-item">
+                        <img src="img/brand3.png" alt="Expedia">
+                    </div>
+                    <div class="testimonials__brands-item">
+                        <img src="img/brand4.png" alt="Quantas">
+                    </div>
+                    <div class="testimonials__brands-item">
+                        <img src="img/brand5.png" alt="Alitalia">
+                    </div>
+                </div>
             </div>
         </section>
         <section class="subscribe">
             <div class="container">
-
+                <div class="subscribe-inner">
+                    <div class="subscribe-title">
+                        Subscribe to get information, latest news and other interesting offers about Cobham
+                    </div>
+                    <form class="subscribe-form" action="">
+                        <input type="email" name="email" required id="mail" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="subscribe-decor"><img src="img/subscribe1.svg" alt=""></div>
+                    <div class="subscribe__decorPluses">
+                        <span></span><span></span><span>+</span><span>+</span><span>+</span>
+                        <span></span><span></span><span>+</span><span>+</span><span>+</span>
+                        <span></span><span></span><span>+</span><span>+</span><span>+</span>
+                        <span></span><span>+</span><span>+</span><span>+</span><span>+</span>
+                        <span>+</span><span></span><span>+</span><span>+</span><span>+</span>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="footer">
             <div class="container">
-
+                <div class="footer-inner">
+                    <div class="footer-column1">
+                        <div class="footer-logo">Jadoo.</div>
+                        <div class="footer-text">Book your trip in minute, get full Control for much longer.
+                        </div>
+                    </div>
+                    <div class="footer-column2">
+                        <div class="footer-listTitle">Company</div>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-list__item">About</a></li>
+                            <li><a href="#" class="footer-list__item">Careers</a></li>
+                            <li><a href="#" class="footer-list__item">Mobile</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column3">
+                        <div class="footer-listTitle">Contact</div>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-list__item">Help/FAQ</a></li>
+                            <li><a href="#" class="footer-list__item">Press</a></li>
+                            <li><a href="#" class="footer-list__item">Affilates</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column4">
+                        <div class="footer-listTitle">More</div>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-list__item">Airlinefees</a></li>
+                            <li><a href="#" class="footer-list__item">Airline</a></li>
+                            <li><a href="#" class="footer-list__item">Low fare tips</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column5">
+                        <ul class="footer-socialLinks">
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank" class="footer-socialLink">
+                                    <img src="img/facebook.svg" alt="Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank" class="footer-socialLink">
+                                    <img src="img/instagram.svg" alt="Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank" class="footer-socialLink">
+                                    <img src="img/twitter.svg" alt="Twitter">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/" target="_blank" class="footer-socialLink">
+                                    <img src="img/youtube.svg" alt="Youtube">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="footer-appTitle">Discover our app</div>
+                        <div class="footer-apps">
+                            <a href="https://play.google.com/store/" target="_blank"><img src="img/googlePlay.svg" alt="Google Play"></a>
+                            <a href="https://www.apple.com/store/" target="_blank"><img src="img/playStore.svg" alt="Play Store"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-rights">All rights reserved@jadoo.co</div>
             </div>
         </section>
     </div>

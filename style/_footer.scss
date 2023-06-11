@@ -1,0 +1,61 @@
+.footer {
+    margin: 0 0 3%;
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 1vw;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3vw;
+    }
+    &-column1 {
+        flex: 0 015%;
+    }
+    &-logo {
+        font-size: 2.2vw;
+        color: #181E4B;
+    }
+    &-text {
+        font-size: 0.8vw;
+    }
+    &-listTitle {
+        color: #080809;
+        margin-bottom: 1vw;
+    }
+    &-list li:not(:last-child){
+        margin-bottom: 10%;
+    }
+    &-list__item {
+        display: block;
+        color: #5E6282;
+        transition: color .2s ease-in-out;
+        &:hover {
+            color: #3d4899;
+        }
+    }
+    &-socialLinks {
+        display: flex;
+        justify-content: space-around
+    }
+    &-appTitle {;
+        font-size: 1.2vw;
+        margin: 7% 0 5%;
+    }
+    &-apps {
+        display: flex;
+        gap: 1vw;
+        a {
+            display: block;
+            height: 2.3vw;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    &-rights {
+        text-align: center;
+        font-size: 0.8vw;
+    }
+}

@@ -22,7 +22,7 @@
             
             transition: color ease-in-out 0.2s;
             &:hover {
-                color: #888888;
+                color: #3d4899;
             }
         }
     }
@@ -42,7 +42,7 @@
         }
         transition: scale ease-in-out 0.2s, color ease-in-out 0.2s;
         &:hover {
-            color: #888888;
+            color: #3d4899;
             scale: 1.08;
         }
     }
@@ -54,12 +54,16 @@
         left: 0;
     }
     &::after {
-        content: url(../img/decore.svg);
+        content: '';
         position: absolute;
         z-index: -1;
+        background-image: url(../img/decore.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
         top: 0;
         right: 0;
-        height: 50vh;
+        width: 40vw;
+        height: 50vw;
     }
 }
 .dropdown {
