@@ -429,8 +429,8 @@ body {
 }
 .category__item:hover {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.06);
 }
 .category__item:hover::before {
   visibility: visible;
@@ -501,8 +501,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
-          filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+  -webkit-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.03));
+          filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.03));
 }
 .destinations__item:last-child {
   position: relative;
@@ -638,8 +638,8 @@ body {
   height: fit-content;
   padding: 2%;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.05);
   border-radius: 2vw;
   font-weight: 500;
   color: #84829A;
@@ -834,8 +834,8 @@ body {
   padding: 3% 6% 2% 4%;
   position: relative;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.06);
   border-radius: 1.5vw;
   color: #5E6282;
   font-size: 1.1vw;
@@ -889,8 +889,8 @@ body {
 }
 .testimonials__brands-item:hover {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  -webkit-box-shadow: 0vw 2vw 6vw rgba(0, 0, 0, 0.15);
+          box-shadow: 0vw 2vw 6vw rgba(0, 0, 0, 0.15);
   border-radius: 1.2vw;
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
@@ -910,7 +910,7 @@ body {
   position: absolute;
   content: "";
   bottom: 0%;
-  left: 0%;
+  left: 2%;
   background-image: url(../img/subscribe2.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -1455,7 +1455,7 @@ body {
   .steps__card-decorPluses {
     position: absolute;
     top: 83%;
-    right: -12%;
+    right: -10%;
     pointer-events: none;
     width: 25vw;
     height: 25vw;
